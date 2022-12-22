@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/order" android:title="@string/menu_order" app:showAsAction="never"/>
+    <item android:id="@+id/allOrders" android:title="@string/menu_all_orders" app:showAsAction="never"/>
+    <item android:id="@+id/author" android:title="@string/menu_about_author" app:showAsAction="never"/>
+    <item android:id="@+id/saveLoginInfo" android:title="@string/menu_save_login_info" app:showAsAction="never"/>
+    <item android:id="@+id/language" android:title="@string/menu_language" app:showAsAction="never"/>
+    <item android:id="@+id/logout" android:title="@string/menu_log_out" app:showAsAction="never"/>
+</menu>

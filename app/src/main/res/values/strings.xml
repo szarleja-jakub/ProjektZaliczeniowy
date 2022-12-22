@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">ProjektZaliczeniowy</string>
+    <string name="register_here"><u>Zarejestruj</u></string>
+    <string name="login_here"><u>Zaloguj</u></string>
+    <string name="register_error0">Wszystkie pola muszą być wypełnione</string>
+    <string name="register_error1">Nieprawidłowy mail (powinien wyglądać tak: przyklad@mail.pl)</string>
+    <string name="register_error2">Nieprawidłowy numer, powinien składać się z 9 cyfr</string>
+    <string name="register_error3">Wprowadzone hasła powinny być takie same</string>
+    <string name="register_error4">Hasło musi mieć od 4 do 32 znaków oraz nie może zawierać białych znaków</string>
+    <string name="register_error5">Imię i nazwisko musi mieć pomiędzy 4 a 32 znaki</string>
+    <string name="register_error6">Użytkownik z tym mailem już istnieje</string>
+    <string name="register_error7">Ten numer telefonu jest już zajęty</string>
+    <string name="register_error_default">Wystąpił błąd, spróbuj ponownie</string>
+    <string name="register_success">Rejestracja przebiegła pomyślnie, teraz możesz się zalogować</string>
+    <string name="login_error1">Dane logowania są niepoprawne</string>
+    <string name="login_error2">Zły format mail\'a (powinien wyglądać tak: przyklad@mail.pl)</string>
+    <string name="login_error3">Email i hasło nie mogą być puste</string>
+    <string name="login_error_default">Wystąpił błąd, spróbuj ponownie</string>
+    <string name="login_success">Zalogowano</string>
+    <string name="login_info_saved">Twoje dane logowania będą od teraz zapisane</string>
+    <string name="login_info_not_saved">Twoje dane logowania nie będą od teraz zapisane</string>
+    <string name="greeting">Cześć</string>
+    <string name="order_confirmation">POTWIERDZENIE ZAMÓWIENIA</string>
+    <string name="order_mail_part1">Cieszymy się, że zdecydowałeś się zrobić zakupy w naszym sklepie.</string>
+    <string name="order_mail_part2">Twoje zamówienie zostanie wysłane w ciągu następnych 24 godzin.</string>
+    <string name="order_mail_part3">Dziękujemy za zakupy w naszym sklepie, naprawdę to doceniamy!</string>
+    <string name="order_mail_part4">Szczegóły zamówienia:</string>
+    <string name="author_text" tools:ignore="Typos">Autor: </string>
+    <string name="author_name">Jakub Szarleja</string>
+    <string name="keyboard">Klawiatura</string>
+    <string name="mouse">Myszka</string>
+    <string name="monitor">Monitor</string>
+    <string name="computer">Komputer</string>
+    <string name="price">cena</string>
+    <string name="order">Zamówienie</string>
+    <string name="order_price">Cena zamówienia</string>
+    <string name="menu_order">Zamów</string>
+    <string name="menu_log_out">Wyloguj</string>
+    <string name="menu_save_login_info">Zapisz dane logowania</string>
+    <string name="menu_about_author">O autorze</string>
+    <string name="menu_all_orders">Moje zamówienia</string>
+    <string name="price_info_no_item">Dodaj coś do zamówienia aby policzyć cenę</string>
+    <string name="order_success">Zamówienie zostało wysłane</string>
+    <string name="order_error">Zamówienie nie zostało wysłane</string>
+    <string name="info_logged_out">Wylogowano</string>
+    <string name="no_account_text">Nie posiadasz jeszcze konta?</string>
+    <string name="login_text">Zaloguj</string>
+    <string name="password_text">Hasło</string>
+    <string name="email_text">Email</string>
+    <string name="author_desc" tools:ignore="Typos">Autor</string>
+    <string name="order_button_text">Zamów</string>
+    <string name="register_button_text">ZAREJESTRUJ</string>
+    <string name="already_have_account_text">Posiadasz już konto?</string>
+    <string name="confirm_password_text">Potwierdź hasło</string>
+    <string name="full_name_text">Imię i nazwisko</string>
+    <string name="menu_language">Język</string>
+    <string name="choose_language">Wybierz język</string>
+    <string name="polish_text">Polski</string>
+    <string name="english_text">Angielski</string>
+    <string name="phone_text">Numer telefonu</string>
+    <string name="item_image">Zdjęcie przedmiotu</string>
+    <string-array translatable="false" name="keyboardNames">
+        <item>Logitech MX</item>
+        <item>Corsair Strafe</item>
+        <item>Logitech POP</item>
+    </string-array>
+    <string-array translatable="false" name="keyboardPrices">
+        <item>$99.99</item>
+        <item>$169.99</item>
+        <item>$129.99</item>
+    </string-array>
+    <string-array translatable="false" name="keyboardDescriptions">
+        <item>Wireless keyboard with a Bluetooth interface</item>
+        <item>Wired keyboard with an USB interface</item>
+        <item>Wireless keyboard with an USB interface</item>
+    </string-array>
+    <string-array translatable="false" name="mouseNames">
+        <item>Logitech G</item>
+        <item>Steelseries Prime</item>
+        <item>Razer Deathadder</item>
+    </string-array>
+    <string-array translatable="false" name="mousePrices">
+        <item>$99.99</item>
+        <item>$59.99</item>
+        <item>$39.99</item>
+    </string-array>
+    <string-array translatable="false" name="mouseDescriptions">
+        <item>Wireless optic mouse having 7 buttons</item>
+        <item>Wireless optic mouse having 5 buttons</item>
+        <item>Wired optic mouse having 8 buttons</item>
+    </string-array>
+    <string-array translatable="false" name="monitorNames">
+        <item>Acer Nitro</item>
+        <item>Gigabyte M27Q</item>
+        <item>LG UltraFine</item>
+    </string-array>
+    <string-array translatable="false" name="monitorPrices">
+        <item>$129.99</item>
+        <item>$359.99</item>
+        <item>$449.99</item>
+    </string-array>
+    <string-array translatable="false" name="monitorDescriptions">
+        <item>27", LED, 1920x1080, IPS, reaction: 1ms</item>
+        <item>27", LED, 2560x1440, IPS, reaction: 1ms</item>
+        <item>31.5", LED, 3840x2160, IPS, reaction: 5ms</item>
+    </string-array>
+    <string-array translatable="false" name="computerNames">
+        <item>Dell Alienware</item>
+        <item>Predator Orion</item>
+        <item>Corsair Vengeance</item>
+    </string-array>
+    <string-array translatable="false" name="computerPrices">
+        <item>$4999.99</item>
+        <item>$999.99</item>
+        <item>$3299.99</item>
+    </string-array>
+    <string-array translatable="false" name="computerDescriptions">
+        <item>i7–12700KF, RTX 3080Ti, 32GB DDR5 4400MHz, 1TB SSD, 1TB HDD</item>
+        <item>i5–12400, GTX 1660, 16GB DDR4 3200MHz, 512GB SSD</item>
+        <item>i9–10850K, RTX 3080, 32GB DDR4 3200MHZ, 1TB SSD, 2TB HDD</item>
+    </string-array>
+</resources>
